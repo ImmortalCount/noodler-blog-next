@@ -10,6 +10,8 @@ export default function Home({posts}) {
     <div >
       <Head>
         <title>Noodler Dev Blog</title>
+        <link rel="icon" href="/noodler_icon.svg" />
+
       </Head>
       <div className='posts'>
         {posts.map((post, index) => (
