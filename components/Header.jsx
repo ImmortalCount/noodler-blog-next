@@ -3,9 +3,10 @@ import Link from 'next/link'
 export default function Header() {
   return (
     <header>
+        {/* <link rel="icon" href="/noodler_icon.svg" /> */}
         <div className='container'>
           <Link href='/' passHref>
-            <h2>Noodler Dev Blog</h2>
+            <h2>Noodler Blog</h2>
           </Link>
         </div>
     </header>

@@ -1,11 +1,11 @@
 ---
-title: 'Tailwind vs. Bootstrap'
-date: 'March 5, 2021'
-excerpt: 'Both Tailwind and Bootstrap are very popular CSS frameworks. In this article, we will compare them'
-cover_image: '/images/posts/img2.jpg'
+title: 'Noodler.io V 1.0 is go'
+date: 'March 7, 2022'
+excerpt: 'Noodler.io is live and ready to go'
+cover_image: '/images/posts/noodler_full.png'
 ---
 
-Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
+orem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
 haec praepes [partes epulae](http://cui.com/), in egisse de. Caecisque ter
 manus. Munere in exhalat, ferre sed [habe quaeque saepe](http://ne.org/fretum)
 verba caput ferarum _nubila_? Patriam Cyparisse tamen, **saxum** fide postponere
@@ -30,6 +30,15 @@ procul fugitque corpora iugales!
     permalinkCertificateMacintosh(ergonomicsIsdnDns);
     boot = bridgeDaemonActive;
 
+
+    New markdown
+            rgb + nybbleBaseband;
+    permalinkCertificateMacintosh(ergonomicsIsdnDns);
+    boot = bridgeDaemonActive;
+
+```
+Code block?
+```
 ## O contra diu
 
 Descendit _auras cum misi_ contactu tenax lacus, **quaerensque invitum
