@@ -6,7 +6,7 @@ export default function Header() {
         {/* <link rel="icon" href="/noodler_icon.svg" /> */}
         <div className='container'>
           <Link href='/' passHref>
-            <h2>Noodler Blog</h2>
+            <h2>Noodler Play Docs Shop Blog</h2>
           </Link>
         </div>
     </header>

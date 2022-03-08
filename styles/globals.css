@@ -112,8 +112,17 @@ ol {
   line-height: 2.3;
 }
 
+.sidebar{
+  min-width: 200px;
+  margin-left: 10px;
+}
+
 @media (max-width: 500px) {
   .posts {
     grid-template-columns: 1fr;
   }
+}
+
+.doc_wrapper{
+  display: flex;
 }
