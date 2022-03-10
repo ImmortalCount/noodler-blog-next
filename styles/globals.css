@@ -26,10 +26,21 @@ img {
 }
 
 header {
-  background: steelblue;
-  color: #fff;
+  background: lightcyan;
+  color: black;
   padding: 5px;
-  margin-bottom: 40px;
+}
+
+.header_wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+footer{
+  background-color: lightblue;
+  color: black;
+  padding: 5px;
 }
 
 header a {
@@ -125,4 +136,54 @@ ol {
 
 .doc_wrapper{
   display: flex;
+}
+
+.link{
+  cursor: default;
+}
+
+.home_page_element{
+  height: 550px;
+  border-color: black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+}
+
+.home_page_intro{
+  background-color: lightblue;
+
+}
+
+.home_page_shop{
+  background-color: lightcyan;
+}
+
+.home_page_blog{
+  background-color: lightblue;
+}
+
+.home_page_docs{
+  background-color: lightcyan;
+}
+
+.home_page_element_left{
+  flex: 1;
+}
+
+.home_page_element_right{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.home_element_play{
+  min-height:150px;
+
+}
+
+.home_page_element_left{
+  margin-left: 50px;
+  margin-top: 50px;
 }

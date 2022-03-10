@@ -1,9 +1,15 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Sidebar from '../components/Sidebar'
+import Head from 'next/head'
 
 export default function docs() {
   return (
     <>      
+      <Head>
+        <title>Noodler Docs</title>
+        <link rel="icon" href="/noodler_icon.svg" />
+      </Head>
             <div className='doc_wrapper'>
             <Sidebar active={'overview'}/>
             <div>
@@ -22,6 +28,7 @@ export default function docs() {
               -drag it into the PALETTE to store it for later
               -drag it into the PLAYER in order to change an element of your song
              </p>
+             <img className='image' src="/images/docs/Noodler Full.png" alt="" />
             </div>
             </div>
 
