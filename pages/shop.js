@@ -8,9 +8,9 @@ export default function shop() {
         <title>Shop Noodler</title>
         <link rel="icon" href="/noodler_icon.svg" />
       </Head>
-      <div>
-          <h1>Shop Noodler</h1>
-          <h2>DO it!</h2>
+      <div className='doc_wrapper'>
+          <h1>Coming Soon...</h1>
+          {/* <h2></h2> */}
       </div>
     </>
   )

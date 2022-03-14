@@ -7,7 +7,7 @@ export default function Header() {
         <Link href='/' passHref>
         <h2 className='link'>Noodler</h2>
           </Link>
-        <Link href='https://www.noodler.io/' target="_blank" rel="noopener noreferrer" passHref>
+        <Link href='https://play.noodler.io/' target="_blank" rel="noopener noreferrer" passHref>
         <h2 className='link'>Play</h2>
           </Link>
         <Link href='/shop' passHref>

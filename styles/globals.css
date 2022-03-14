@@ -136,6 +136,11 @@ ol {
 
 .doc_wrapper{
   display: flex;
+  min-height: 100vh;
+}
+
+.blog_wrapper{
+  min-height: 100vh;
 }
 
 .link{

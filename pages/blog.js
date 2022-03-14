@@ -7,16 +7,18 @@ import {sortByDate} from '../utils'
 
 export default function Home({posts}) {
   return (
-    <div >
+    <div>
       <Head>
         <title>Noodler Dev Blog</title>
         <link rel="icon" href="/noodler_icon.svg" />
 
       </Head>
+      <div className='blog_wrapper'>
       <div className='posts'>
         {posts.map((post, index) => (
           <Post key={index} post={post}/>
         ))}
+      </div>
       </div>
     </div>
   )
