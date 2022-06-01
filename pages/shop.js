@@ -6,7 +6,7 @@ export default function shop() {
     <>
       <Head>
         <title>Shop Noodler</title>
-        <link rel="icon" href="/noodler_icon.svg" />
+        <link rel="icon" href="/NoodlerLogo.png" />
       </Head>
       <div className='doc_wrapper'>
           <h1>Coming Soon...</h1>

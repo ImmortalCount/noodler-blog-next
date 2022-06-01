@@ -10,7 +10,7 @@ export default function Home({posts}) {
     <div>
       <Head>
         <title>Noodler Dev Blog</title>
-        <link rel="icon" href="/noodler_icon.svg" />
+        <link rel="icon" href="/NoodlerLogo.png" />
 
       </Head>
       <div className='blog_wrapper'>

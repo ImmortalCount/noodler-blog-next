@@ -13,7 +13,7 @@ export default function index({frontmatter: {title, excerpt, cover_image}, conte
     <>
         <Head>
         <title>Noodler</title>
-        <link rel="icon" href="/noodler_icon.svg" />
+        <link rel="icon" href="/NoodlerLogo.png" />
         </Head>
           <div className='home_page_element home_page_intro'>
            <div className='home_page_element_left'>

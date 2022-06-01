@@ -8,7 +8,7 @@ export default function docs() {
     <>      
       <Head>
         <title>Noodler Docs</title>
-        <link rel="icon" href="/noodler_icon.svg" />
+        <link rel="icon" href="/NoodlerLogo.png" />
       </Head>
             <div className='doc_wrapper'>
             <Sidebar active={'overview'}/>
