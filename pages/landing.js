@@ -12,7 +12,7 @@ export default function landing() {
       <div>
            <div>Noodler is the video</div>
            <div className='demo'>
-               <YoutubeEmbed embedId={'ZeTlVhdCGec'}/>
+               <YoutubeEmbed embedId={'PntnIeZzyqk'}/>
            </div>
            <div>Noodler is a free online DAW where you can create and share musical ideas</div>
            
