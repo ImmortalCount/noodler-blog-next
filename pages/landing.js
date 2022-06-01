@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import React from 'react'
-import MailchimpFormContainer from '../components/MailchimpFormContainer'
+import Script from 'next/script'
+import React, {useState} from 'react'
+import MailChimpForm from '../components/MailChimpForm'
 import YoutubeEmbed from '../components/YoutubeEmbed'
 
 export default function landing() {
@@ -43,8 +44,8 @@ export default function landing() {
            <div>This is the landing page</div>
            <div>This is the landing page</div>
            <div>This is the landing page</div>
-           <MailchimpFormContainer/>
-      </div>
+          <MailChimpForm/>
+</div>
       </>
 
   )

@@ -192,3 +192,10 @@ ol {
   margin-left: 50px;
   margin-top: 50px;
 }
+
+#mc_embed_signup{
+  background:#fff;
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+  width:600px;
+}
