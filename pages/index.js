@@ -14,7 +14,7 @@ export default function index({frontmatter: {title, excerpt, cover_image}, conte
         <Head>
         <title>Noodler</title>
         <link rel="icon" href="/NoodlerLogo.png" />
-        <script id="mcjs">{!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1c36953b1c9c9e0433173382e/cc68992c0866c842d366d2c1e.js")}</script>
+        <script id="mcjs">{`!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1c36953b1c9c9e0433173382e/cc68992c0866c842d366d2c1e.js")`}</script>
         </Head>
           <div className='home_page_element home_page_intro'>
            <div className='home_page_element_left'>
