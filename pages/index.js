@@ -39,13 +39,13 @@ export default function index({frontmatter: {title, excerpt, cover_image}, conte
            </div>
            <div className='home_page_element_right'>
             <div className='home_element_play'>
-            <a href='https://play.noodler.io/'>
+            <a href='http://playnoodler.io/'>
             <h2 className='post-title'>Noodler App</h2>
               <div>
               <img className='image' src="/images/docs/Noodler Full.png" alt="" style={{width:'400px', marginTop: '10px'}} />
               </div>
             </a>
-            <a href='https://play.noodler.io/' className='btn' style={{display:'default'}}>Play Now</a>
+            <a href='http://playnoodler.io/' className='btn' style={{display:'default'}}>Play Now</a>
             </div>
             <div className='home_element_demo'>
               <a target="_blank" rel="noopener noreferrer" href='https://www.youtube.com/'>
