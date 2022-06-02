@@ -26,7 +26,7 @@ img {
 }
 
 header {
-  background: lightcyan;
+  background: lightsteelblue;
   color: black;
   padding: 5px;
 }
@@ -38,7 +38,8 @@ header {
 }
 
 footer{
-  background-color: lightblue;
+  text-align: center;
+  background-color: lightsteelblue;
   color: black;
   padding: 5px;
 }
@@ -193,9 +194,30 @@ ol {
   margin-top: 50px;
 }
 
+.landing{
+  width: fit-content;
+  background-color: lightblue;
+}
+
+.landing_body{
+    padding-left: 20px;
+  padding-right: 20px;
+}
+
 #mc_embed_signup{
-  background:#fff;
   clear:left;
   font:14px Helvetica,Arial,sans-serif;
-  width:600px;
+  width:auto;
+}
+
+.mc-field-group{
+  align-items: right;
+}
+
+html{
+  display: flex;
+}
+
+.logo{
+  width: 25%;
 }

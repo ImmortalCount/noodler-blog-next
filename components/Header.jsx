@@ -1,9 +1,13 @@
+
 import Link from 'next/link'
 
 export default function Header() {
   return (
-    <header>
+    <header className='header'>
         <div className='header_wrapper'>
+        <div>
+        {/* <img className='logo' src="/NoodlerLogo.png" alt="" /> */}
+        </div>
         <Link href='/' passHref>
         <h2 className='link'>Noodler</h2>
           </Link>
