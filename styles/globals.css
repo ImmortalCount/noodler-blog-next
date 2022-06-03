@@ -199,19 +199,57 @@ ol {
   background-color: lightblue;
 }
 
+.landing_points{
+  font-size: x-large;
+  margin-left: 10px;
+}
+
+.landing_head{
+  font-size: xx-large;
+  font-weight: bold;
+}
 .landing_body{
-    padding-left: 20px;
+  padding-left: 20px;
   padding-right: 20px;
 }
 
 #mc_embed_signup{
   clear:left;
-  font:14px Helvetica,Arial,sans-serif;
+  font:18 Helvetica,Arial,sans-serif;
   width:auto;
 }
+.required{
+  margin-left: 25px;
+  width: 200vw;
+  height: 50px;
+}
 
-.mc-field-group{
+.button{
+margin-left: 25px;
+margin-top: 20px;
+background-color: lightseagreen;
+height: 50px;
+width: 200vw;
+font-size: large;
+margin-bottom: 20px;
+}
+
+.button_wrap{
+  display: flex;
+  justify-content: left;
+}
+
+.bottom_link{
+  margin-top: 40px;
+}
+/* .mc-field-group{
   align-items: right;
+} */
+
+.field_group_wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 html{
@@ -220,4 +258,9 @@ html{
 
 .logo{
   width: 25%;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
 }

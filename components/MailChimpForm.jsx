@@ -9,8 +9,9 @@ export default function MailChimpForm() {
     <div id="mc_embed_signup">
 <form action="https://noodler.us13.list-manage.com/subscribe/post?u=1c36953b1c9c9e0433173382e&amp;id=13a2da520a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Stay Up To Date With Noodler.io Developments</h2>
+	{/* <h2>Stay Up To Date With Noodler.io Developments</h2> */}
 <div className="indicates-required"><span className="asterisk">*</span> indicates required</div>
+<div className='field_group_wrap'>
 <div className="mc-field-group">
 	<label htmlFor="mce-FNAME">First Name  <span className="asterisk">*</span>
 </label>
@@ -21,13 +22,14 @@ export default function MailChimpForm() {
 </label>
 	<input type="email" value={email} name="EMAIL" className="required email" id="mce-EMAIL" onChange={e => setEmail(e.target.value)} />
 </div>
+</div>
 	<div id="mce-responses" className="clear foot">
 		<div className="response" id="mce-error-response" ></div>
 		<div className="response" id="mce-success-response" ></div>
 	</div>  
     <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true"><input type="text" name="b_1c36953b1c9c9e0433173382e_13a2da520a" tabIndex="-1" value="" /></div>
         <div className="optionalParent">
-            <div className="clear foot">
+            <div className="clear foot button_wrap">
                 <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" />
                 {/* <p className="brandingLogo"><a href="http://eepurl.com/h3ry0T" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg" /></a></p> */}
             </div>
